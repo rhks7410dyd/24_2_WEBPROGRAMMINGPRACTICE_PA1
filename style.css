@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  /*private 색 : 
+  기본 폰트 색 : #171717*/
+h1, h2, p, ul, li {
+  margin-bottom: 1em; /* 태그 간 하단에 20px 간격 추가 */
+  color : #171717;
+}
+
+p {
+  font-size: 20px;
+}
+
+.container {
+  padding: 0;
+  margin:0;
+  display: flex;
+  width:100%;
+}
+
+/* 왼쪽 사이드바 스타일 */
+.sidebar {
+  background-color: rgb(247,247,245); /* 사이드바 배경색 */
+  padding: 8px; /* 내부 여백 */
+  box-sizing: border-box;
+  flex-grow:3;
+}
+
+.sidebar-content{
+  color: #5f5e5b;
+}
+
+.main-wrapper {
+  flex-grow: 7;
+  background-color: #ffffff; /* 메인 콘텐츠 배경색 */
+
+}
+
+.main-content {
+  padding: 0 15%;
+  margin-top : 8rem;
+  margin-bottom: 8rem;
+}
+
+ul{
+  list-style-position: inside;
+}
+
+.sidebar-private-tap{
+  margin-top:2rem;
+}

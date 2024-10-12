@@ -1,0 +1,44 @@
+Scoring Guidlines
+Therefore, I will give a perfect score as long as it’s reasonably similar and won’t deduct points too strictly.
+·
+You need to mimic overall layout of the page
+·
+You need to put margin or padding
+·
+You need to distinguish font size of the [heading, content]
+·
+You need to distinguish font weight of the [heading, content]
+·
+You need to put profile image
+·
+You need to put profile image's border should be rounded
+·
+You need to put background color to the sidebar
+·
+You need to put background color to the sidebar
+·
+You don't need to put exactly same margin or padding
+·
+You don't need to use exactly same font size as this page
+·
+You don't need to use exactly same font weight as this page
+·
+You don't need to use exactly same font style as this page. Any font style is fine
+·
+You don't need to use exactly same color as this page
+·
+You don't need to make your page responsive.
+What to Summit
+You need to zip the follwing files and submit zip file on iCampus.
+·
+index.html
+·
+style.css
+·
+profile.jpg
+·
+Additional files... (css or any other files you need to put into)
+Name of the zip file : [student ID]-KoreanName.zip
+ex) 2012123123-김둘리
+Additional Information
+To put icons like sidebar, go to Developer Tools and copy the <svg> tag
