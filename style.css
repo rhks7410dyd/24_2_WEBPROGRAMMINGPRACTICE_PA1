@@ -27,6 +27,50 @@ p {
   padding: 8px; /* 내부 여백 */
   box-sizing: border-box;
   flex-grow:3;
+  max-width:250px;
+}
+
+.sidebar-user-tap{
+  margin-top:4px;
+  margin-bottom:4px;
+  padding-bottom:4px;
+  padding-top:4px;
+  padding-left:12px;
+  padding-right:12px;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+}
+
+.sidebar-user-info{
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.sidebar-user-info img{
+  margin-right: 10px; /* 이미지와 텍스트 사이의 간격 */
+  border-radius: 15%;
+  width: 24px;
+  height: 24px;
+}
+
+.sidebar-user-info div {
+  display: inline-block; /* 두 요소를 한 줄에 배치 */
+  vertical-align: middle; /* 이미지와 텍스트를 수직으로 중앙 정렬 */
+}
+
+.sidebar-user-tap svg{
+  margin-right: 0px;
+  width: 24px;
+  height: 24px;
+  float:right;
+}
+
+.h-full{
+  float:left;
+  width: 20px;
+  height:20px;
 }
 
 .sidebar-content{
@@ -49,6 +93,19 @@ ul{
   list-style-position: inside;
 }
 
-.sidebar-private-tap{
-  margin-top:2rem;
+.sidebar-content{
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.sidebar-svg{
+  margin-right: 8px;
+  width: auto;
+  height:auto;
+}
+
+.sidebar-text{
+  margin-left:8px;
 }
