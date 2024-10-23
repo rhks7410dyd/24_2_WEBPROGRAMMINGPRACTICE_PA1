@@ -6,8 +6,25 @@
   /*private 색 : 
   기본 폰트 색 : #171717*/
 h1, h2, p, ul, li {
-  margin-bottom: 1em; /* 태그 간 하단에 20px 간격 추가 */
+
+  padding-top:4px;
+  padding-bottom:4px;
   color : #171717;
+}
+
+h1 {
+  font-size:32px;
+}
+
+.main-content ul li{
+  margin-left: 12px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.subtitle{
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 p {
